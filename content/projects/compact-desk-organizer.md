@@ -17,9 +17,9 @@ featured: true
 published: true
 ---
 
-## The prompt
+## The Prompt
 
-I wanted a place for the small objects that migrate around my desk: a pen, a memory card, a roll of tape, and the inevitable handful of screws. The constraint was simple: it had to be useful without taking over the desk.
+I wanted a place for the loose objects that migrate around my desk: a pen, a memory card, a roll of tape, and the inevitable handful of screws. The constraint was simple: it had to be useful without taking over the desk.
 
 ## Design and process
 
