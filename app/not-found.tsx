@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <section className="site-container py-32 text-center"><p className="eyebrow text-accent">404</p><h1 className="mt-4 font-display text-5xl">That project wandered off.</h1><p className="mx-auto mt-5 max-w-md text-muted">The page you&apos;re looking for may have moved, or it may still be on the workbench.</p><Link href="/projects/" className="mt-8 inline-block rounded-full bg-ink px-5 py-3 text-sm font-medium text-paper">Browse projects</Link></section>; }

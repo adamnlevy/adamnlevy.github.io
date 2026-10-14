@@ -1,0 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+import type { Project } from "@/lib/content";
+import { ArrowUpRight } from "lucide-react";
+import { withBasePath } from "@/lib/utils";
+export function ProjectCard({ project, featured = false }: { project: Project; featured?: boolean }) { return <article className={featured ? "group md:col-span-2" : "group"}><Link href={`/projects/${project.slug}/`} className="block"><div className="image-frame aspect-[4/3] overflow-hidden rounded-sm bg-[#d8d2c7]"><Image src={withBasePath(project.coverImage)} alt={project.coverAlt} fill sizes={featured ? "(min-width: 768px) 66vw, 100vw" : "(min-width: 768px) 33vw, 100vw"} className="object-cover transition duration-500 group-hover:scale-[1.03]" /></div><div className="mt-4 flex items-start justify-between gap-4"><div><p className="eyebrow text-accent">{project.category}</p><h3 className="mt-1 font-display text-2xl leading-tight">{project.title}</h3><p className="mt-2 max-w-lg text-sm leading-6 text-muted">{project.description}</p></div><ArrowUpRight className="mt-1 shrink-0 text-muted transition group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-accent" size={20}/></div></Link></article>; }

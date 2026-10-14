@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --ink: 148 18% 14%; --paper: 42 29% 96%; --muted: 150 7% 42%; --line: 38 16% 84%; --accent: 17 63% 43%; --accent-dark: 17 66% 32%; --font-sans: "Inter"; --font-display: "DM Serif Display"; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: hsl(var(--paper)); color: hsl(var(--ink)); font-family: var(--font-sans), system-ui, sans-serif; }
+.site-container { width: min(1120px, calc(100% - 2.5rem)); margin-inline: auto; }
+.eyebrow { font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.image-frame { position: relative; }
+.prose-maker { max-width: 720px; color: hsl(var(--ink)); font-size: 1.05rem; line-height: 1.8; }
+.prose-maker h2 { margin: 2.5rem 0 1rem; font-family: var(--font-display), Georgia, serif; font-size: 2rem; line-height: 1.15; }
+.prose-maker h3 { margin: 2rem 0 .75rem; font-family: var(--font-display), Georgia, serif; font-size: 1.45rem; }
+.prose-maker p, .prose-maker ul, .prose-maker ol, .prose-maker pre, .prose-maker blockquote { margin: 1.1rem 0; }
+.prose-maker ul, .prose-maker ol { padding-left: 1.5rem; }
+.prose-maker li { margin: .35rem 0; }
+.prose-maker a { color: hsl(var(--accent)); text-decoration: underline; text-underline-offset: 3px; }
+.prose-maker img { border-radius: .125rem; }
+.prose-maker blockquote { border-left: 3px solid hsl(var(--accent)); padding-left: 1rem; color: hsl(var(--muted)); font-style: italic; }
+.prose-maker pre { overflow-x: auto; border-radius: .25rem; background: hsl(var(--ink)); color: hsl(var(--paper)); padding: 1rem; font-size: .85rem; }
+:focus-visible { outline: 2px solid hsl(var(--accent)); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: .01ms !important; } }

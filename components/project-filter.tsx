@@ -1,0 +1,5 @@
+"use client";
+import { useState } from "react";
+import type { Project } from "@/lib/content";
+import { ProjectCard } from "@/components/project-card";
+export function ProjectFilter({ projects, categories }: { projects: Project[]; categories: string[] }) { const [selected, setSelected] = useState("All"); const filtered = selected === "All" ? projects : projects.filter((p) => p.category === selected); return <><div className="mb-10 flex flex-wrap gap-2" aria-label="Filter projects by category">{["All", ...categories].map((category) => <button key={category} onClick={() => setSelected(category)} className={`rounded-full border px-4 py-2 text-sm transition ${selected === category ? "border-ink bg-ink text-paper" : "border-line text-muted hover:border-ink hover:text-ink"}`} aria-pressed={selected === category}>{category}</button>)}</div>{filtered.length ? <div className="grid gap-x-6 gap-y-14 md:grid-cols-2">{filtered.map((project) => <ProjectCard key={project.slug} project={project} />)}</div> : <p className="border border-dashed border-line p-8 text-muted">No projects in this category yet.</p>}</>; }
