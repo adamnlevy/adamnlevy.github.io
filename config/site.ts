@@ -8,7 +8,7 @@ export const siteConfig = {
   linkedIn: "https://www.linkedin.com/in/adam-levy-957573373/",
   github: "https://github.com/",
   email: "adamnlevy@gmail.com",
-  resumePath: "/documents/resume.pdf",
+  resumePath: "/documents/Adam Levy Resume.pdf",
   aboutPath: "/about/",
   defaultOgImage: "/branding/og-image.svg",
 } as const;
