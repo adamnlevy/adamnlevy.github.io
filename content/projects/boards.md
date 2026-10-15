@@ -8,10 +8,10 @@ tags:
   - "Joinery"
   - "Finishing"
 coverImage: "/images/projects/boards/Cutting Board.jpg"
-coverAlt: ""
+coverAlt: "Wooden cutting board"
 gallery:
   - src: "/images/projects/Charcuterie Board.jpg"
-    alt: ""
+    alt: "Wooden charcuterie board"
 date: "2024-01-09"
 featured: true
 published: true
