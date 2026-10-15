@@ -14,7 +14,7 @@ gallery:
     alt: "Concentric measurement marks illustrating a repeatable layout process"
 date: "2025-03-02"
 featured: true
-published: true
+published: false
 ---
 
 ## Why make a kit?
