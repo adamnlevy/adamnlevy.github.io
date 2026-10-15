@@ -10,7 +10,7 @@ tags:
 coverImage: "/images/projects/boards/Cutting Board.jpg"
 coverAlt: "Wooden cutting board"
 gallery:
-  - src: "/images/projects/Charcuterie Board.jpg"
+  - src: "/images/projects/boards/Charcuterie Board.jpg"
     alt: "Wooden charcuterie board"
 date: "2024-01-09"
 featured: true
