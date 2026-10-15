@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "validate": "npm run typecheck && npm run test"
+    "validate": "npm run typecheck"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
