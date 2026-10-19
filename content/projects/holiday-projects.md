@@ -1,17 +1,17 @@
 ---
 title: "Holiday Projects"
 slug: "holiday-projects"
-description: "A collection of boards."
+description: "A collection of various holiday themed projects."
 category: "Woodworking"
 tags:
   - "Assembly"
   - "Joinery"
   - "Finishing"
-coverImage: "/images/projects/boards/Cutting Board.jpg"
-coverAlt: "Wooden cutting board"
+coverImage: "/images/projects/Holidays/Reindeer.jpg"
+coverAlt: "Wooden reindeer"
 gallery:
-  - src: "/images/projects/boards/Charcuterie Board.jpg"
-    alt: "Wooden charcuterie board"
+  - src: "/images/projects/Holidays/Christmas Tree.jpg"
+    alt: "Small wooden Christmas tree, made of small rectangular sticks"
 date: "2024-11-18"
 featured: true
 published: false
