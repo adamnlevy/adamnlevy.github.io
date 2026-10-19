@@ -14,17 +14,17 @@ gallery:
     alt: "Small wooden Christmas tree."
 date: "2024-11-18"
 featured: false
-published: false
+published: true
 ---
 
 ## The idea
 
-What did you make and why?
+I made various holiday themed ornaments and decorations, for the purpose of being used to help act as, or dipslay holiday gifts.
 
 ## The process
 
-Describe the materials, tools, and important decisions.
+I used various pieces of pine, cut and shaped with various saws, to carefully craft each component. They are then sanded and finished, before assembling into their final products.
 
 ## The result
 
-Explain what worked and what you learned.
+Using various saws and stencils, I practiced various woodworking techniques to help hone my skills and accuracy.
