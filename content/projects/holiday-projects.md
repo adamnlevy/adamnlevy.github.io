@@ -8,12 +8,12 @@ tags:
   - "Joinery"
   - "Finishing"
 coverImage: "/images/projects/Holidays/Reindeer.jpg"
-coverAlt: "Wooden reindeer"
+coverAlt: "Wooden reindeer."
 gallery:
   - src: "/images/projects/Holidays/Christmas Tree.jpg"
-    alt: "Small wooden Christmas tree, made of small rectangular sticks"
+    alt: "Small wooden Christmas tree."
 date: "2024-11-18"
-featured: true
+featured: false
 published: false
 ---
 
