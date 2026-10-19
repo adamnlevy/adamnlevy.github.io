@@ -1,18 +1,19 @@
 ---
 title: "Holiday Projects"
 slug: "holiday-projects"
-description: "A sturdy stool made for the garden bench."
+description: "A collection of boards."
 category: "Woodworking"
 tags:
-  - ""
+  - "Assembly"
   - "Joinery"
-coverImage: "/images/projects/garden-stool/cover.jpg"
-coverAlt: "Finished oak garden stool beside a workbench"
+  - "Finishing"
+coverImage: "/images/projects/boards/Cutting Board.jpg"
+coverAlt: "Wooden cutting board"
 gallery:
-  - src: "/images/projects/garden-stool/detail-01.jpg"
-    alt: "Close-up of the stool's corner joint"
-date: "2026-03-15"
-featured: false
+  - src: "/images/projects/boards/Charcuterie Board.jpg"
+    alt: "Wooden charcuterie board"
+date: "2024-11-18"
+featured: true
 published: false
 ---
 
